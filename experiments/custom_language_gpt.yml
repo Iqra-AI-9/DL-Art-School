@@ -117,7 +117,7 @@ networks:
       #only_alignment_head: False  # uv3/4
 
 path:
-  pretrain_model_gpt: '../experiments/autoregressive.pth' # CHANGEME: copy this from tortoise cache
+  pretrain_model_gpt: '/models--iqrabatool--Tortoise_TTS_voice_cloning/snapshots/2b206eead78a27ee3ccc7d76f9b3a01c53002368/VC_eng_1000.pth' # CHANGEME: copy this from tortoise cache
   strict_load: true
   #resume_state: ../experiments/train_imgnet_vqvae_stage1/training_state/0.state   # <-- Set this to resume from a previous training state.
 
